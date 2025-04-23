@@ -1,0 +1,48 @@
+@import 'colors'
+@import 'fonts'
+@import 'card/*'
+
+*
+  margin 0
+  padding 0
+  box-sizing border-box
+
+
+body
+    color: black
+    background: cream
+    margin: 0
+    box-sizing: border-box
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 100vh
+    font-family: font-stack--first
+    font-size: font-size--medium 
+    overflow: hidden
+.card
+    border-radius: 15px
+    background: whiteBackground
+    width: 21.1047rem
+    height: 38.3633rem
+.card__container
+    width 19.2044rem
+    margin: 0 auto
+
+ @media (max-width: 374px)
+    html
+     font-size: 10px
+  @media (min-width: 740px) and (min-height: 799px)
+    html
+     font-size: 18px
+ @media (min-width: 800px) and (min-height: 800px)
+    body
+        font-size: font-size-desktop--medium
+    .card
+        width: 37.5rem
+        height: 28.125rem
+        display: flex
+    .card__container
+        width: 45%
+        padding: 2.5rem 1.25rem 1.25rem 1.25rem
+    

@@ -1,0 +1,22 @@
+.card__image--desktop
+    display: none
+.card__figure
+    margin: 0
+    padding: 0
+    width 100%
+    text-align: center
+.card__figure img
+    width: 100%
+    height: 100%
+    border-radius: 15px 15px 0 0
+
+@media (min-width: 800px) and (min-height: 800px)
+    .card__figure
+        height: 100%
+    .card__image--mobile
+        display: none
+    .card__image--desktop
+        display: block
+        width: 100% !important
+        height: 100% !important
+        border-radius: 15px 0 0 15px !important
